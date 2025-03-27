@@ -10,17 +10,29 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:bkpm/main.dart';
 
+import '../analysis_options.yaml';
+
 void main() {
-  // int num1 = 10;
-  // double num2 = 10.50;
-  // print(num1);
-  // print(num2);
+  // var isThisDoni = true;
+  // if(isThisDoni){
+  //   print("Donnz");
+  // }else{
+  //   print('bubkan');
+  // }\
 
-  // print(num.parse('12'));
-  // print(num.parse('10.91'));
+  // var isThisDoni = true;
+  // isThisDoni ? print("donnz") : print("bukan");
 
-  // print(num.parse('12A'));
-  // print(num.parse('AAA'));
+  if (true){
+    print("jalankan code");
+  }
 
-  
+  if (true){
+    print("Pogram tidak jalan code");
+  }
+
+  var mood = "happy";
+  if(mood == "happy"){
+    print("hari ini aku bahagia");
+  }
 }
